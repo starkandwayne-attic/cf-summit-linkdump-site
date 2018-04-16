@@ -1,0 +1,6 @@
+---
+applications:
+- name: link-dump
+  memory: 1G
+  command: python app.py
+  buildpack: python_buildpack 
